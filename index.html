@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Raja Usus — Premium Usus Krispy Sidoarjo & Surabaya</title>
+  <meta name="description" content="Raja Usus menghadirkan usus krispy premium yang gurih, renyah, dan diproses dengan spinner untuk mengurangi minyak berlebih. Melayani pemesanan area Sidoarjo & Surabaya.">
+  <meta name="keywords" content="raja usus, usus krispy, usus crispy sidoarjo, usus crispy surabaya, camilan gurih, usus goreng renyah">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Raja Usus — Premium Usus Krispy">
+  <meta property="og:description" content="Usus krispy berkualitas dengan tekstur renyah dan proses spinner untuk mengurangi minyak berlebih.">
+  <meta property="og:image" content="assets/images/hero.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon / Theme -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👑</text></svg>">
+  <meta name="theme-color" content="#120d0a">
+
+  <!-- Google Fonts (Outfit & Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Pengumuman Wilayah Layanan">
+    <div class="container announcement-content">
+      <span class="pulse-dot"></span>
+      <span>Melayani Pemesanan Langsung Area <strong>Sidoarjo & Surabaya</strong></span>
+      <span class="badge-halal-mini"><i class="fa-solid fa-circle-check"></i> Bahan & Proses Halal</span>
+    </div>
+  </aside>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container nav-wrapper">
+      <a href="#beranda" class="brand-logo" id="nav-brand-logo" aria-label="Raja Usus Beranda">
+        <div class="brand-icon">👑</div>
+        <div class="brand-text">
+          <span class="brand-name">RAJA USUS</span>
+          <span class="brand-tag">PREMIUM USUS KRISPY</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Menu Utama">
+        <ul class="nav-links">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#produk" class="nav-link">Produk</a></li>
+          <li><a href="#keunggulan" class="nav-link">Kenapa Kami</a></li>
+          <li><a href="#proses" class="nav-link">Proses</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#galeri" class="nav-link">Galeri</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm btn-order-modal" id="nav-btn-order">
+          <i class="fa-brands fa-whatsapp"></i> Pesan Sekarang
+        </button>
+        <button class="menu-toggle" id="mobile-menu-toggle" aria-label="Buka Menu Navigasi">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="drawer-header">
+      <div class="brand-text">
+        <span class="brand-name">RAJA USUS</span>
+        <span class="brand-tag">PREMIUM USUS KRISPY</span>
+      </div>
+      <button class="drawer-close" id="mobile-drawer-close" aria-label="Tutup Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="drawer-links">
+      <li><a href="#beranda" class="drawer-link">Beranda</a></li>
+      <li><a href="#produk" class="drawer-link">Produk & Harga</a></li>
+      <li><a href="#keunggulan" class="drawer-link">Kenapa Raja Usus</a></li>
+      <li><a href="#proses" class="drawer-link">Proses Pembuatan</a></li>
+      <li><a href="#tentang" class="drawer-link">Cerita Kami</a></li>
+      <li><a href="#galeri" class="drawer-link">Galeri Foto</a></li>
+      <li><a href="#instagram" class="drawer-link">Instagram</a></li>
+      <li><a href="#kontak" class="drawer-link">Pemesanan</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <button class="btn btn-primary btn-full btn-order-modal" id="drawer-btn-order">
+        <i class="fa-brands fa-whatsapp"></i> Pesan via WhatsApp
+      </button>
+      <p class="drawer-area-note"><i class="fa-solid fa-location-dot"></i> Sidoarjo & Surabaya Area</p>
+    </div>
+  </div>
+  <div class="backdrop" id="backdrop"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="beranda">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badges">
+          <span class="badge badge-gold"><i class="fa-solid fa-award"></i> Premium Quality</span>
+          <span class="badge badge-halal"><i class="fa-solid fa-shield-halving"></i> Halal</span>
+          <span class="badge badge-location"><i class="fa-solid fa-map-pin"></i> Sidoarjo & Surabaya</span>
+        </div>
+
+        <h1 class="hero-title">
+          Premium Usus Krispy, <span class="text-highlight">Gurihnya Bikin Nagih.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Usus krispy berkualitas dengan tekstur renyah dan proses spinner untuk mengurangi minyak berlebih. Renyah tahan lama, gurih pas, dan nikmat di setiap gigitan.
+        </p>
+
+        <!-- Price Callout in Hero -->
+        <div class="hero-price-tag">
+          <div class="price-bubble">
+            <span class="price-label">Mulai dari</span>
+            <span class="price-val">Rp15.000</span>
+          </div>
+          <div class="price-divider"></div>
+          <div class="price-note">
+            <strong>2 Pilihan Ukuran:</strong> 100g & 200g (Lebih Hemat)
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <button class="btn btn-primary btn-lg btn-order-modal" id="hero-btn-order">
+            <i class="fa-brands fa-whatsapp"></i> Pesan Sekarang
+          </button>
+          <a href="#produk" class="btn btn-secondary btn-lg" id="hero-btn-explore">
+            <i class="fa-solid fa-utensils"></i> Lihat Produk
+          </a>
+        </div>
+
+        <div class="hero-trust-badges">
+          <div class="trust-item">
+            <i class="fa-solid fa-fan"></i>
+            <span>Diproses Spinner</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-drumstick-bite"></i>
+            <span>100% Usus Pilihan</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Order Cepat WhatsApp</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-card">
+          <div class="image-wrapper hero-img-frame">
+            <img src="assets/images/hero.jpg" alt="Sajian Usus Krispy Raja Usus Renyah Gurih" class="hero-img" id="hero-main-img" loading="eager">
+            <div class="visual-badge">
+              <span class="badge-title">SUPER RENYAH</span>
+              <span class="badge-desc">Minyak Berlebih Berkurang</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT SECTION -->
+  <section class="section product-section" id="produk">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Varian Ukuran</span>
+        <h2 class="section-title">Premium Usus Krispy</h2>
+        <p class="section-desc">
+          Renyah, gurih, dan dibuat dari bahan berkualitas untuk menghasilkan usus krispy yang nikmat di setiap gigitan.
+        </p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product 1: 100g -->
+        <div class="product-card" id="card-prod-100g">
+          <div class="product-image-box">
+            <img src="assets/images/pouch-100g.jpg" alt="Raja Usus 100g Pouch" class="product-img" loading="lazy">
+            <div class="product-weight-badge">100g</div>
+          </div>
+          <div class="product-info">
+            <div class="product-head">
+              <h3 class="product-name">Raja Usus — 100g</h3>
+              <div class="product-price">Rp15.000</div>
+            </div>
+            <p class="product-desc">
+              "Porsi pas untuk menikmati kerenyahan Raja Usus."
+            </p>
+            <ul class="product-features">
+              <li><i class="fa-solid fa-check text-gold"></i> P-IRT No: 2033577011671-30</li>
+              <li><i class="fa-solid fa-check text-gold"></i> Kemasan zipper pouch higienis</li>
+              <li><i class="fa-solid fa-check text-gold"></i> Praktis untuk camilan solo & bekal</li>
+              <li><i class="fa-solid fa-check text-gold"></i> Tekstur renyah kering minim minyak</li>
+            </ul>
+            <button class="btn btn-primary btn-full btn-order-direct" data-variant="100g" data-price="15000" id="btn-order-100g">
+              <i class="fa-brands fa-whatsapp"></i> Pesan 100g
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 2: 200g (Featured / Better Value) -->
+        <div class="product-card featured-product" id="card-prod-200g">
+          <div class="featured-ribbon">
+            <i class="fa-solid fa-star"></i> Paling Diminati • Lebih Hemat
+          </div>
+          <div class="product-image-box">
+            <img src="assets/images/pouch-200g.jpg" alt="Raja Usus 200g Pouch" class="product-img" loading="lazy">
+            <div class="product-weight-badge badge-featured">200g</div>
+          </div>
+          <div class="product-info">
+            <div class="product-head">
+              <div>
+                <h3 class="product-name">Raja Usus — 200g</h3>
+                <span class="value-subtag">Porsi Besar • Lebih Puas</span>
+              </div>
+              <div class="product-price-box">
+                <div class="product-price text-highlight">Rp25.000</div>
+                <div class="price-saving-badge">Hemat Rp5.000</div>
+              </div>
+            </div>
+            <p class="product-desc">
+              "Lebih banyak untuk dinikmati bersama atau buat stok camilan."
+            </p>
+            <ul class="product-features">
+              <li><i class="fa-solid fa-check text-gold"></i> P-IRT No: 2033577011671-30</li>
+              <li><i class="fa-solid fa-check text-gold"></i> 2x lebih banyak dari porsi reguler</li>
+              <li><i class="fa-solid fa-check text-gold"></i> Sangat cocok untuk teman makan nasi & nongkrong</li>
+              <li><i class="fa-solid fa-check text-gold"></i> Kemasan pouch ziplock kedap udara</li>
+            </ul>
+            <button class="btn btn-primary btn-full btn-order-direct" data-variant="200g" data-price="25000" id="btn-order-200g">
+              <i class="fa-brands fa-whatsapp"></i> Pesan 200g (Lebih Hemat)
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Interactive Order Calculator -->
+      <div class="order-calculator-card" id="kalkulator-pesanan">
+        <div class="calc-header">
+          <div class="calc-icon"><i class="fa-solid fa-calculator"></i></div>
+          <div>
+            <h3 class="calc-title">Hitung Cepat & Pesan Langsung</h3>
+            <p class="calc-subtitle">Pilih jumlah pesanan Anda dan pesan via WhatsApp dalam satu klik</p>
+          </div>
+        </div>
+
+        <div class="calc-body">
+          <div class="calc-item-row">
+            <div class="calc-item-label">
+              <strong>Paket 100g</strong>
+              <span>Rp15.000 / bungkus</span>
+            </div>
+            <div class="qty-control">
+              <button type="button" class="qty-btn" id="btn-minus-100" aria-label="Kurang 100g">-</button>
+              <input type="number" id="qty-100" value="0" min="0" max="99" class="qty-input" readonly>
+              <button type="button" class="qty-btn" id="btn-plus-100" aria-label="Tambah 100g">+</button>
+            </div>
+            <div class="calc-item-subtotal" id="subtotal-100">Rp0</div>
+          </div>
+
+          <div class="calc-item-row">
+            <div class="calc-item-label">
+              <strong>Paket 200g <span class="mini-badge-gold">Hemat</span></strong>
+              <span>Rp25.000 / bungkus</span>
+            </div>
+            <div class="qty-control">
+              <button type="button" class="qty-btn" id="btn-minus-200" aria-label="Kurang 200g">-</button>
+              <input type="number" id="qty-200" value="1" min="0" max="99" class="qty-input" readonly>
+              <button type="button" class="qty-btn" id="btn-plus-200" aria-label="Tambah 200g">+</button>
+            </div>
+            <div class="calc-item-subtotal" id="subtotal-200">Rp25.000</div>
+          </div>
+
+          <div class="calc-delivery-row">
+            <label for="delivery-city">Wilayah Pengiriman:</label>
+            <select id="delivery-city" class="city-select">
+              <option value="Sidoarjo">Sidoarjo</option>
+              <option value="Surabaya">Surabaya</option>
+            </select>
+          </div>
+
+          <div class="calc-summary">
+            <div class="calc-total-box">
+              <span class="total-label">Total Estimasi:</span>
+              <span class="total-amount" id="calc-total-amount">Rp25.000</span>
+            </div>
+            <button class="btn btn-primary btn-lg" id="btn-calc-checkout">
+              <i class="fa-brands fa-whatsapp"></i> Kirim Pesanan ke WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHY RAJA USUS? (KEUNGGULAN) -->
+  <section class="section why-section" id="keunggulan">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Kualitas Terjamin</span>
+        <h2 class="section-title">Kenapa Raja Usus?</h2>
+        <p class="section-desc">
+          Kami mengutamakan rasa, kerenyahan, dan kebersihan dalam setiap kemasan yang kami produksi.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <h3 class="feature-title">Bahan Berkualitas</h3>
+          <p class="feature-text">
+            "Menggunakan bahan-bahan berkualitas untuk menghasilkan rasa dan tekstur yang nikmat."
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-fire-burner"></i>
+          </div>
+          <h3 class="feature-title">Krispy & Renyah</h3>
+          <p class="feature-text">
+            "Diolah untuk menghasilkan tekstur usus yang renyah dan menggugah selera."
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card highlight-feature">
+          <div class="feature-icon">
+            <i class="fa-solid fa-rotate"></i>
+          </div>
+          <h3 class="feature-title">Spinner untuk Mengurangi Minyak</h3>
+          <p class="feature-text">
+            "Melalui proses spinner untuk membantu mengurangi minyak berlebih setelah proses pengolahan."
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-shield-halving"></i>
+          </div>
+          <h3 class="feature-title">Halal</h3>
+          <p class="feature-text">
+            "Produk Raja Usus dibuat dengan bahan dan proses yang halal."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT PROCESS STORYTELLING -->
+  <section class="section process-section" id="proses">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Dari Dapur Kami</span>
+        <h2 class="section-title">Dari Proses hingga Jadi Krispy</h2>
+        <p class="section-desc">
+          Setiap tahapan diperhatikan secara detail untuk menghasilkan usus krispy yang gurih, renyah, dan tidak berminyak.
+        </p>
+      </div>
+
+      <div class="process-steps">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-img-box">
+            <img src="assets/images/process-1.jpg" alt="Proses pemilihan bahan usus berkualitas dan bumbu rempah" class="step-img" loading="lazy">
+            <span class="step-number">01</span>
+          </div>
+          <div class="step-content">
+            <h3 class="step-title">01 — Bahan Berkualitas</h3>
+            <p class="step-desc">
+              Bahan usus pilihan dibersihkan secara higienis dan dimarinasi dengan rempah alami pilihan untuk menghasilkan rasa gurih yang lezat.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-img-box">
+            <img src="assets/images/process-2.jpg" alt="Proses penggorengan usus krispy matang sempurna" class="step-img" loading="lazy">
+            <span class="step-number">02</span>
+          </div>
+          <div class="step-content">
+            <h3 class="step-title">02 — Diolah hingga Krispy</h3>
+            <p class="step-desc">
+              Usus diolah dan digoreng dengan teknik khusus hingga mencapai tekstur yang sangat renyah, gurih, dan menggugah selera.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-img-box">
+            <img src="assets/images/process-3.jpg" alt="Proses penirisan spinner minyak usus krispy" class="step-img" loading="lazy">
+            <span class="step-number">03</span>
+          </div>
+          <div class="step-content">
+            <h3 class="step-title">03 — Spinner</h3>
+            <p class="step-desc">
+              Produk matang melalui proses spinner untuk meniriskan minyak berlebih, sehingga usus krispy tidak cepat melempem dan lebih nyaman dinikmati.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="process-conclusion">
+        <div class="conclusion-box">
+          <div class="conclusion-badge"><i class="fa-solid fa-crown text-gold"></i> Kesempurnaan Rasa</div>
+          <h3 class="conclusion-title">Hasilnya? Usus Krispy yang renyah dan nikmat.</h3>
+          <p class="conclusion-sub">Gak bikin eneg di lidah, renyah gurihnya bikin susah berhenti ngemil.</p>
+          <button class="btn btn-primary btn-order-modal" id="process-btn-order">
+            <i class="fa-brands fa-whatsapp"></i> Mau Coba Sekarang
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- LOCAL BRAND STORY ("Berawal dari Sidoarjo") -->
+  <section class="section story-section" id="tentang">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-content">
+          <span class="section-subtitle">Cerita Kami</span>
+          <h2 class="section-title">Berawal dari Sidoarjo</h2>
+          <div class="story-body">
+            <p class="lead-p">
+              <strong>Raja Usus</strong> hadir untuk menghadirkan usus krispy berkualitas yang bisa dinikmati oleh siapa saja.
+            </p>
+            <p>
+              Saat ini Raja Usus melayani pelanggan di sekitar <strong>Sidoarjo dan Surabaya</strong> serta berkembang melalui rekomendasi dari teman dan kerabat.
+            </p>
+            <p>
+              Kami fokus menyajikan produk usus krispy dengan standar kebersihan yang tinggi, bumbu gurih yang khas, dan proses spinner untuk mengurangi minyak berlebih agar setiap bungkus selalu renyah dan lezat.
+            </p>
+          </div>
+
+          <div class="story-badges-row">
+            <div class="story-badge-item">
+              <i class="fa-solid fa-city text-gold"></i>
+              <div>
+                <strong>Sidoarjo & Surabaya</strong>
+                <span>Fokus Layanan Pelanggan</span>
+              </div>
+            </div>
+            <div class="story-badge-item">
+              <i class="fa-solid fa-heart text-gold"></i>
+              <div>
+                <strong>Otentik & Berkualitas</strong>
+                <span>Dibuat dengan Cermat</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="story-visual">
+          <div class="story-card-frame">
+            <img src="assets/images/gallery-3.jpg" alt="Kerenyahan Usus Krispy Raja Usus dalam genggaman" class="story-img" loading="lazy">
+            <div class="story-quote-card">
+              <p>"Kerenyahan dan rasa gurih khas Raja Usus yang selalu bikin nagih."</p>
+              <span>— Raja Usus Sidoarjo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY ("Lihat Kerenyahannya") -->
+  <section class="section gallery-section" id="galeri">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Visual & Detail</span>
+        <h2 class="section-title">Lihat Kerenyahannya</h2>
+        <p class="section-desc">
+          Setiap serpihan tekstur usus krispy yang menggugah selera.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-img="assets/images/gallery-1.jpg" data-caption="Tekstur makro renyah keemasan usus krispy">
+          <img src="assets/images/gallery-1.jpg" alt="Tekstur makro usus krispy Raja Usus" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Tekstur Makro Super Krispy</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-img="assets/images/gallery-2.jpg" data-caption="Sajian mangkuk usus krispy dengan sambal bawang">
+          <img src="assets/images/gallery-2.jpg" alt="Sajian usus krispy dengan sambal" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Sajian Mangkuk & Sambal</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-img="assets/images/gallery-3.jpg" data-caption="Kerenyahan usus krispy dalam gigitan">
+          <img src="assets/images/gallery-3.jpg" alt="Gigitan renyah usus krispy" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Kerenyahan Tiada Tanding</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-img="assets/images/gallery-4.jpg" data-caption="Kemasan standing pouch Raja Usus dengan rempah pelengkap">
+          <img src="assets/images/gallery-4.jpg" alt="Pouch Raja Usus dan rempah" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Kemasan Pouch Higienis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM SECTION ("Ikuti Raja Usus") -->
+  <section class="section instagram-section" id="instagram">
+    <div class="container">
+      <div class="insta-box">
+        <div class="insta-header">
+          <div class="insta-brand-info">
+            <div class="insta-avatar">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+              <h2 class="section-title insta-title">Ikuti Raja Usus</h2>
+              <p class="insta-text">
+                "Lihat produk terbaru, informasi, dan konten Raja Usus di Instagram."
+              </p>
+            </div>
+          </div>
+          <a href="[INSTAGRAM LINK]" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-insta" id="btn-insta-follow">
+            <i class="fa-brands fa-instagram"></i> Follow Instagram
+          </a>
+        </div>
+
+        <div class="insta-grid">
+          <a href="[INSTAGRAM LINK]" target="_blank" rel="noopener noreferrer" class="insta-card">
+            <img src="assets/images/hero.jpg" alt="Instagram Post Raja Usus" loading="lazy">
+            <div class="insta-card-overlay"><i class="fa-brands fa-instagram"></i></div>
+          </a>
+          <a href="[INSTAGRAM LINK]" target="_blank" rel="noopener noreferrer" class="insta-card">
+            <img src="assets/images/pouch-200g.jpg" alt="Instagram Post Raja Usus 200g" loading="lazy">
+            <div class="insta-card-overlay"><i class="fa-brands fa-instagram"></i></div>
+          </a>
+          <a href="[INSTAGRAM LINK]" target="_blank" rel="noopener noreferrer" class="insta-card">
+            <img src="assets/images/gallery-2.jpg" alt="Instagram Post Camilan Santai" loading="lazy">
+            <div class="insta-card-overlay"><i class="fa-brands fa-instagram"></i></div>
+          </a>
+          <a href="[INSTAGRAM LINK]" target="_blank" rel="noopener noreferrer" class="insta-card">
+            <img src="assets/images/gallery-4.jpg" alt="Instagram Post Packaging" loading="lazy">
+            <div class="insta-card-overlay"><i class="fa-brands fa-instagram"></i></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER & CONTACT SECTION ("Mau Coba Raja Usus?") -->
+  <section class="section order-cta-section" id="kontak">
+    <div class="container">
+      <div class="order-cta-card">
+        <div class="order-cta-content">
+          <span class="badge badge-gold"><i class="fa-solid fa-truck-fast"></i> Pengiriman Sidoarjo & Surabaya</span>
+          <h2 class="order-cta-title">Mau Coba Raja Usus?</h2>
+          <p class="order-cta-desc">
+            Saat ini Raja Usus melayani pemesanan di area <strong>Sidoarjo dan Surabaya</strong>.
+          </p>
+
+          <div class="order-buttons-group">
+            <a href="https://wa.me/[WHATSAPP NUMBER]?text=Halo%20Raja%20Usus,%20saya%20tertarik%20untuk%20pesan%20usus%20krispy." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-xl" id="btn-wa-main-order">
+              <i class="fa-brands fa-whatsapp"></i> Pesan via WhatsApp
+            </a>
+            <a href="[INSTAGRAM LINK]" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-xl" id="btn-insta-main-link">
+              <i class="fa-brands fa-instagram"></i> Instagram Raja Usus
+            </a>
+          </div>
+
+          <div class="order-notice">
+            <span><i class="fa-solid fa-clock"></i> Respon Cepat</span>
+            <span><i class="fa-solid fa-box-open"></i> Selalu Fresh</span>
+            <span><i class="fa-solid fa-shield-halving"></i> Halal</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon">👑</div>
+            <div class="brand-text">
+              <span class="brand-name">RAJA USUS</span>
+              <span class="brand-tag">PREMIUM USUS KRISPY</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            Usus krispy berkualitas dengan tekstur renyah dan proses spinner untuk mengurangi minyak berlebih.
+          </p>
+          <div class="footer-location-tag">
+            <i class="fa-solid fa-location-dot text-gold"></i>
+            <span>Area Layanan: <strong>Sidoarjo • Surabaya</strong></span>
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Navigasi</h4>
+          <ul class="footer-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#keunggulan">Tentang Kami</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Produk & Harga</h4>
+          <ul class="footer-links">
+            <li><a href="#produk">Raja Usus — 100g (Rp15.000)</a></li>
+            <li><a href="#produk">Raja Usus — 200g (Rp25.000) <span class="badge-tag-gold">Lebih Hemat</span></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Social</h4>
+          <div class="footer-social-links">
+            <a href="[INSTAGRAM LINK]" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram Raja Usus">
+              <i class="fa-brands fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://wa.me/[WHATSAPP NUMBER]" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp Raja Usus">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Raja Usus. All rights reserved.</p>
+        <p class="footer-meta">Sidoarjo & Surabaya, Jawa Timur</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY MOBILE BOTTOM CTA BAR -->
+  <aside class="mobile-sticky-bar" id="mobile-sticky-bar" aria-label="Aksi Cepat Pesan">
+    <div class="sticky-info">
+      <span class="sticky-price-label">Mulai dari</span>
+      <span class="sticky-price">Rp15.000</span>
+    </div>
+    <button class="btn btn-primary btn-sm btn-order-modal" id="mobile-sticky-btn">
+      <i class="fa-brands fa-whatsapp"></i> Pesan Sekarang
+    </button>
+  </aside>
+
+  <!-- FLOATING WHATSAPP BUTTON (Desktop & Mobile) -->
+  <a href="https://wa.me/[WHATSAPP NUMBER]?text=Halo%20Raja%20Usus,%20saya%20mau%20pesan%20usus%20krispy." target="_blank" rel="noopener noreferrer" class="floating-wa" id="floating-wa-btn" aria-label="Chat WhatsApp Langsung">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="wa-tooltip">Pesan WhatsApp</span>
+  </a>
+
+  <!-- ORDER MODAL DIALOG -->
+  <div class="modal" id="order-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title-box">
+            <span class="modal-pre">Formulir Pemesanan Langsung</span>
+            <h3 class="modal-title" id="modal-title">Pesan Raja Usus</h3>
+          </div>
+          <button class="modal-close" id="modal-close-btn" aria-label="Tutup Dialog">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <form id="wa-order-form" class="modal-form">
+          <div class="form-group">
+            <label for="order-name">Nama Pemesan:</label>
+            <input type="text" id="order-name" class="form-control" placeholder="Nama Anda" required>
+          </div>
+
+          <div class="form-group">
+            <label for="order-city">Kota / Wilayah Pengiriman:</label>
+            <select id="order-city" class="form-control" required>
+              <option value="Sidoarjo">Sidoarjo</option>
+              <option value="Surabaya">Surabaya</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="order-address">Alamat Pengiriman / Catatan:</label>
+            <textarea id="order-address" class="form-control" rows="2" placeholder="Detail alamat atau catatan khusus..."></textarea>
+          </div>
+
+          <div class="form-section-title">Pilih Jumlah Paket:</div>
+
+          <div class="modal-qty-row">
+            <div class="modal-qty-info">
+              <strong>Raja Usus — 100g</strong>
+              <span>Rp15.000 / bungkus</span>
+            </div>
+            <div class="qty-control">
+              <button type="button" class="qty-btn" id="modal-minus-100">-</button>
+              <input type="number" id="modal-qty-100" value="0" min="0" max="99" class="qty-input" readonly>
+              <button type="button" class="qty-btn" id="modal-plus-100">+</button>
+            </div>
+          </div>
+
+          <div class="modal-qty-row">
+            <div class="modal-qty-info">
+              <strong>Raja Usus — 200g <span class="badge-hemat-mini">Lebih Hemat</span></strong>
+              <span>Rp25.000 / bungkus</span>
+            </div>
+            <div class="qty-control">
+              <button type="button" class="qty-btn" id="modal-minus-200">-</button>
+              <input type="number" id="modal-qty-200" value="1" min="0" max="99" class="qty-input" readonly>
+              <button type="button" class="qty-btn" id="modal-plus-200">+</button>
+            </div>
+          </div>
+
+          <div class="modal-total-box">
+            <span>Total Estimasi:</span>
+            <strong id="modal-total-display">Rp25.000</strong>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full btn-lg" id="modal-submit-btn">
+            <i class="fa-brands fa-whatsapp"></i> Pesan via WhatsApp
+          </button>
+          <p class="modal-disclaimer"><i class="fa-solid fa-shield-halving"></i> Pesanan langsung diarahkan ke WhatsApp Raja Usus</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX MODAL FOR GALLERY -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close-btn" aria-label="Tutup Galeri"><i class="fa-solid fa-xmark"></i></button>
+      <img src="" alt="" id="lightbox-img" class="lightbox-image">
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
