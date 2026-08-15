@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://andraalayubi.github.io/raja-usus/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://andraalayubi.github.io/raja-usus/assets/images/hero.jpg</image:loc>
+      <image:title>Raja Usus Premium Krispy Sidoarjo Surabaya</image:title>
+      <image:caption>Sajian Usus Krispy Raja Usus Renyah Gurih</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andraalayubi.github.io/raja-usus/assets/images/pouch-100g.jpg</image:loc>
+      <image:title>Raja Usus Kemasan 100g</image:title>
+      <image:caption>Raja Usus 100g Zipper Pouch</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://andraalayubi.github.io/raja-usus/assets/images/pouch-200g.jpg</image:loc>
+      <image:title>Raja Usus Kemasan 200g</image:title>
+      <image:caption>Raja Usus 200g Pouch Lebih Hemat</image:caption>
+    </image:image>
+  </url>
+</urlset>
